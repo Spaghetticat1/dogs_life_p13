@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const HeroForm = () => {
-  return (
-    <div>HeroForm</div>
-=======
 import React, {useState} from 'react'
 import Form from 'react-bootstrap/Form'
 import Row from 'react-bootstrap/Row'
@@ -89,7 +82,6 @@ const HeroForm = () => {
         </Button>
       </Form>
     </Row>
->>>>>>> springboot_training
   )
 }
 
