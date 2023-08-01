@@ -13,20 +13,20 @@ function App() {
     
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="/">Doges</Navbar.Brand>
+          <Navbar.Brand href="/">Dogs</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/allheroes">All Dogs</Nav.Link>
-              <Nav.Link href="/addhero">Add Dog</Nav.Link>
+              <Nav.Link href="/alldogs">All Dogs</Nav.Link>
+              <Nav.Link href="/adddog">Add Dog</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
       
         <Routes>
-          <Route path="allheroes" element={<AllDogs/>} />
-          <Route path="addhero" element={<DogForm/>} />
+          <Route path="alldogs" element={<AllDogs/>} />
+          <Route path="adddog" element={<DogForm/>} />
           <Route path="/" element={<AllDogs/>} />
         </Routes>
       
