@@ -3,7 +3,11 @@ import './App.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+<<<<<<< HEAD
 import { browserHistory, Router, Routes, Route } from 'react-router';
+=======
+import {Routes, Route } from 'react-router';
+>>>>>>> springboot_training
 import AllHeroes from './components/AllHeroes';
 import HeroForm from './components/HeroForm';
 
