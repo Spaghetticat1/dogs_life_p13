@@ -3,7 +3,7 @@ import './App.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { browserHistory, Router, Routes, Route } from 'react-router';
+import {Routes, Route } from 'react-router';
 import AllHeroes from './components/AllHeroes';
 import HeroForm from './components/HeroForm';
 
