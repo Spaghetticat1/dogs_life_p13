@@ -1,7 +1,7 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import DogDetail from './DogDetail'
 import Row from 'react-bootstrap/Row'
-import { getAllDogs } from '../services/dog-service'
+// import { getAllDogs } from '../services/dog-service'
 
 const AllDogs = () => {
   const [total, setTotal] = useState(0);
@@ -22,7 +22,7 @@ const dogs = [
       <Row >
       {dogs.map(dog => (
       <div 
-        className='container' key={dog.id.toString()}>
+        className='container' key={dog.id}>
         <DogDetail info={dog} parentCount={totalCountHandler} />
       </div>
        ))}

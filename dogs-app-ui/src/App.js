@@ -26,7 +26,7 @@ function App() {
       
         <Routes>
           <Route path="alldogs" element={<AllDogs/>} />
-          <Route path="adddog" element={<DogForm/>} />
+          {/* <Route path="adddog" element={<DogForm/>} /> */}
           <Route path="/" element={<AllDogs/>} />
         </Routes>
       
